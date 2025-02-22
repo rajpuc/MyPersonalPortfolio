@@ -17,7 +17,7 @@ import  { FaGitAlt,FaXTwitter,FaDribbble} from 'react-icons/fa6'
 import  { MdDescription, MdGroups3} from 'react-icons/md'
 
 import Edemy from '../assets/images/Edemy.png'
-import Taskify from '../assets/images/Taskify.png'
+import Taskify from '../assets/images/taskify.png'
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
