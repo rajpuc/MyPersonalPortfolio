@@ -286,7 +286,8 @@ export const PROJECTS = [
         tags: ["React", "Tailwind CSS", "Express", "Node.js", "MongoDB", "Zustand", "Socket.io"],
         description: "A feature-rich real-time chat application with user authentication, private messaging, and group chats.",
         github: "https://github.com/rajpuc/RealTimeChattingApp", 
-        liveDemo: "https://chatverse-nmaf.onrender.com/", 
+        liveDemo: "https://chatverse-nmaf.onrender.com/",
+        projectDetails:"https://github.com/rajpuc/RealTimeChattingApp#chatverse-documentation" 
     },
     {
         id: 2,

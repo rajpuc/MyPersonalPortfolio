@@ -1,7 +1,7 @@
 import { span } from "framer-motion/client";
 import React from "react";
 
-const ProjectCard = ({ imgUrl, title, tags, github,liveDemo}) => {
+const ProjectCard = ({ imgUrl, title, tags, github,liveDemo, projectDetails}) => {
   return (
     <div className="h-full bg-white rounded-xl overflow-hidden shadow-md mx-2">
       <img
@@ -43,6 +43,16 @@ const ProjectCard = ({ imgUrl, title, tags, github,liveDemo}) => {
                 rel="noopener noreferrer"
               >
                 GitHub
+              </a>
+            )}
+            {projectDetails && (
+              <a
+                href={projectDetails}
+                className="ml-4 text-blue-500 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Project Details
               </a>
             )}
           </div>

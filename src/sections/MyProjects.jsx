@@ -48,6 +48,7 @@ const MyProjects = () => {
                     tags={project.tags}
                     github={project.github}
                     liveDemo={project.liveDemo}
+                    projectDetails={project.projectDetails}
                   />
                   
                 </div>
