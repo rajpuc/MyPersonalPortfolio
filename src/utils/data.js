@@ -22,6 +22,7 @@ import { VscVscode } from 'react-icons/vsc';
 import Edemy from '../assets/images/Edemy.png';
 import Taskify from '../assets/images/taskify.png';
 import Chatverse from '../assets/images/chatverse.png';
+import PlainB from '../assets/images/PlainB.png';
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -278,56 +279,118 @@ export const ABOUT_ME = {
 //         liveDemo: "#", // Replace with live link if deployed
 //     }
 // ];
+// export const PROJECTS = [
+//     {
+//         id: 1,
+//         title: "ChatVerse | Real-Time Chat Application",
+//         image: Chatverse, 
+//         tags: ["React", "Tailwind CSS", "Express", "Node.js", "MongoDB", "Zustand", "Socket.io"],
+//         description: "A feature-rich real-time chat application with user authentication, private messaging, and group chats.",
+//         github: "https://github.com/rajpuc/RealTimeChattingApp", 
+//         liveDemo: "https://chatverse-nmaf.onrender.com/",
+//         projectDetails:"https://github.com/rajpuc/RealTimeChattingApp#chatverse-documentation" 
+//     },
+//     {
+//         id: 2,
+//         title: "SkillTrack-LMS | Learning Management System",
+//         image: Edemy, // Replace with actual image import or path
+//         tags: ["React", "Clerk", "Tailwind CSS", "React Router DOM"],
+//         description: "A modern Learning Management System (LMS) that allows users to manage and track their learning progress efficiently.",
+//         github: "https://github.com/rajpuc/SkillTrack-LMS", // Replace with actual link if available
+//         liveDemo: "https://learning-management-system-orcin.vercel.app/", // Replace with live link if deployed
+//     },
+//     {
+//         id: 3,
+//         title: "Taskify | Todo App with custom Authentication",
+//         image: Taskify, // Replace with actual image import or path
+//         tags: ["Express.js", "MongoDB", "EJS", "Tailwind CSS", "Flowbite"],
+//         description: "A feature-rich todo app with user authentication, task management, and email verification.",
+//         github: "https://github.com/rajpuc/Taskify", // Replace with actual link if available
+//     },
+//     {
+//         id: 4,
+//         title: "Prosis | Project & Thesis Management System",
+//         image: 'https://picsum.photos/id/872/200/300', // Replace with actual image import or path
+//         tags: ["MERN", "Bootstrap", "MongoDB"],
+//         description: "A platform for managing project and thesis workflows, enabling students and faculty to collaborate effectively.",
+//     },
+//     {
+//         id: 5,
+//         title: "Smart Enrollment Management System",
+//         image: 'https://picsum.photos/id/873/200/300', // Replace with actual image import or path
+//         tags: ["MERN", "SQL"],
+//         description: "An enrollment management system designed to streamline student registration and course selection.",
+//     },
+//     {
+//         id: 6,
+//         title: "Automatic Image Captioning in Bengali",
+//         image: 'https://picsum.photos/id/874/200/300', // Replace with actual image import or path
+//         tags: ["Python", "CNN", "Transformer"],
+//         description: "A deep learning project that generates Bengali captions for images using CNN and Transformer models.",
+//         github: "#", // Replace with actual link if available
+//         liveDemo: "#", // Replace with live link if deployed
+//     }
+// ];
+
 export const PROJECTS = [
     {
         id: 1,
         title: "ChatVerse | Real-Time Chat Application",
-        image: Chatverse, 
+        image: Chatverse,
         tags: ["React", "Tailwind CSS", "Express", "Node.js", "MongoDB", "Zustand", "Socket.io"],
         description: "A feature-rich real-time chat application with user authentication, private messaging, and group chats.",
-        github: "https://github.com/rajpuc/RealTimeChattingApp", 
+        github: "https://github.com/rajpuc/RealTimeChattingApp",
         liveDemo: "https://chatverse-nmaf.onrender.com/",
-        projectDetails:"https://github.com/rajpuc/RealTimeChattingApp#chatverse-documentation" 
+        projectDetails: "https://github.com/rajpuc/RealTimeChattingApp#chatverse-documentation"
     },
     {
         id: 2,
         title: "SkillTrack-LMS | Learning Management System",
-        image: Edemy, // Replace with actual image import or path
+        image: Edemy,
         tags: ["React", "Clerk", "Tailwind CSS", "React Router DOM"],
         description: "A modern Learning Management System (LMS) that allows users to manage and track their learning progress efficiently.",
-        github: "https://github.com/rajpuc/SkillTrack-LMS", // Replace with actual link if available
-        liveDemo: "https://learning-management-system-orcin.vercel.app/", // Replace with live link if deployed
+        github: "https://github.com/rajpuc/SkillTrack-LMS",
+        liveDemo: "https://learning-management-system-orcin.vercel.app/",
     },
     {
         id: 3,
-        title: "Taskify | Todo App with custom Authentication",
-        image: Taskify, // Replace with actual image import or path
+        title: "Taskify | Todo App with Custom Authentication",
+        image: Taskify,
         tags: ["Express.js", "MongoDB", "EJS", "Tailwind CSS", "Flowbite"],
         description: "A feature-rich todo app with user authentication, task management, and email verification.",
-        github: "https://github.com/rajpuc/Taskify", // Replace with actual link if available
+        github: "https://github.com/rajpuc/Taskify",
     },
     {
         id: 4,
         title: "Prosis | Project & Thesis Management System",
-        image: 'https://picsum.photos/id/872/200/300', // Replace with actual image import or path
+        image: 'https://picsum.photos/id/872/200/300',
         tags: ["MERN", "Bootstrap", "MongoDB"],
         description: "A platform for managing project and thesis workflows, enabling students and faculty to collaborate effectively.",
     },
     {
         id: 5,
         title: "Smart Enrollment Management System",
-        image: 'https://picsum.photos/id/873/200/300', // Replace with actual image import or path
+        image: 'https://picsum.photos/id/873/200/300',
         tags: ["MERN", "SQL"],
         description: "An enrollment management system designed to streamline student registration and course selection.",
     },
     {
         id: 6,
         title: "Automatic Image Captioning in Bengali",
-        image: 'https://picsum.photos/id/874/200/300', // Replace with actual image import or path
+        image: 'https://picsum.photos/id/874/200/300',
         tags: ["Python", "CNN", "Transformer"],
         description: "A deep learning project that generates Bengali captions for images using CNN and Transformer models.",
-        github: "#", // Replace with actual link if available
-        liveDemo: "#", // Replace with live link if deployed
+        github: "https://github.com/rajpuc/BanglaImageCaptioningModel",
+        liveDemo: "#",
+    },
+    {
+        id: 7,
+        title: "E-commerce Platform | Modern Shopping Experience",
+        image: PlainB, // Replace with actual image import or path
+        tags: ["React", "Tailwind CSS", "Vite", "Node.js", "Express.js", "MongoDB", "OTP Authentication"],
+        description: "A modern, full-featured e-commerce platform with OTP-based login, responsive design, shopping cart, wishlist, secure payment gateway, and advanced product filtering.",
+        github: "https://github.com/rajpuc/EcomerceProject", 
+        liveDemo: "https://ecomerceproject-3.onrender.com/",
+        projectDetails: "Features include responsive design, OTP-based authentication, shopping cart, wishlist, integrated payment gateway with SSLCommerz, product search and filtering."
     }
 ];
-
